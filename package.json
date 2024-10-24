@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://ghasemmazandarani.github.io/language-cards",
   "scripts": {
     "start": "vite preview",
     "dev": "vite",
