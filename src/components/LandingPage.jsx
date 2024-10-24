@@ -23,43 +23,43 @@ const LandingPage = () => {
           </Button>
         </nav>
 
-        <main className="py-20">
+        <main className="py-16">
           <div className="text-center relative z-10">
-            <h1 className="text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-teal-200">
+            <h1 className="text-5xl font-bold p-6 bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-teal-200">
               یادگیری زبان را آسان کنید
             </h1>
-            <p className="text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-400 pb-8 max-w-2xl mx-auto">
               با استفاده از کارت‌های هوشمند، لغات جدید را به راحتی یاد بگیرید و پیشرفت خود را دنبال کنید.
             </p>
             <Button 
               onClick={() => navigate('/cards')} 
               size="lg"
-              className="bg-gradient-to-r from-teal-600 to-teal-500 hover:from-teal-700 hover:to-teal-600 text-white"
+              className="bg-gradient-to-r text-md py-1 from-teal-600 to-teal-500 hover:from-teal-700 hover:to-teal-600 text-white"
             >
               شروع رایگان
             </Button>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 mt-20">
-            <div className="p-6 bg-gray-900/80 backdrop-blur-sm rounded-lg shadow-lg border border-gray-800 hover:shadow-xl transition-shadow duration-300">
+            <div className="flex flex-col items-center p-6 bg-gray-900/80 backdrop-blur-sm rounded-lg shadow-lg border border-gray-800 hover:shadow-xl transition-shadow duration-300">
               <Book className="w-12 h-12 text-teal-400 mb-4" />
               <h3 className="text-xl font-semibold mb-2 text-teal-300">یادگیری آسان</h3>
-              <p className="text-gray-400">
-                با استفاده از سیستم کارت‌های هوشمند، لغات را سریع‌تر یاد بگیرید.
+              <p className="text-gray-400 text-center">
+                با استفاده از سیستم کارت‌های هوشمند، لغات را سریع‌تر یاد بگیرید
               </p>
             </div>
-            <div className="p-6 bg-gray-900/80 backdrop-blur-sm rounded-lg shadow-lg border border-gray-800 hover:shadow-xl transition-shadow duration-300">
+            <div className="flex flex-col items-center p-6 bg-gray-900/80 backdrop-blur-sm rounded-lg shadow-lg border border-gray-800 hover:shadow-xl transition-shadow duration-300">
               <Brain className="w-12 h-12 text-teal-400 mb-4" />
               <h3 className="text-xl font-semibold mb-2 text-teal-300">پیشرفت هوشمند</h3>
-              <p className="text-gray-400">
-                سیستم هوشمند ما لغاتی که در آنها ضعیف هستید را بیشتر تکرار می‌کند.
+              <p className="text-gray-400 text-center">
+                سیستم هوشمند ما لغاتی که در آنها ضعیف هستید را بیشتر تکرار می‌کند
               </p>
             </div>
-            <div className="p-6 bg-gray-900/80 backdrop-blur-sm rounded-lg shadow-lg border border-gray-800 hover:shadow-xl transition-shadow duration-300">
+            <div className="flex flex-col items-center p-6 bg-gray-900/80 backdrop-blur-sm rounded-lg shadow-lg border border-gray-800 hover:shadow-xl transition-shadow duration-300">
               <Languages className="w-12 h-12 text-teal-400 mb-4" />
               <h3 className="text-xl font-semibold mb-2 text-teal-300">تنوع زبان‌ها</h3>
-              <p className="text-gray-400">
-                امکان یادگیری چندین زبان به صورت همزمان با سیستم هوشمند.
+              <p className="text-gray-400 text-center">
+                امکان یادگیری چندین زبان به صورت همزمان با سیستم هوشمند
               </p>
             </div>
           </div>
