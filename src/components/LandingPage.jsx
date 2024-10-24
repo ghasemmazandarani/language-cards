@@ -8,7 +8,7 @@ const LandingPage = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 relative overflow-hidden">
-      {/* Decorative Circle */}
+
       <div className="absolute -left-1/3 top-0 w-[1000px] h-[1000px] rounded-full bg-teal-500/10 blur-3xl" />
       
       <div className="container mx-auto px-4 relative z-10">
@@ -68,7 +68,7 @@ const LandingPage = () => {
         </main>
       </div>
 
-      {/* Additional decorative elements */}
+
       <div className="absolute top-1/2 right-0 w-72 h-72 bg-teal-600/10 rounded-full blur-3xl" />
       <div className="absolute bottom-0 left-1/2 w-96 h-96 bg-teal-700/10 rounded-full blur-3xl" />
     </div>
